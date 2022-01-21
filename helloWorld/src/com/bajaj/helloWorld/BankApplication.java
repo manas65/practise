@@ -32,7 +32,7 @@ class Employee{
 	}
 	public static int getName(String name,Employee[] employee) {
 		for(int i=0;i<employee.length;i++) {
-			if(name.eqemployee[i].ename) {
+			if(employee[i].ename != null) {
 				return i;
 			}
 		}
